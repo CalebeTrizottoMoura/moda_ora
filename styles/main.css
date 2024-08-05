@@ -101,6 +101,7 @@ body {
 }
 .brands__img {
     display: block;
+    border-radius: 2rem 8rem 4rem 8rem / 2rem 4rem 4rem 4rem;
 }
 .brands__h1 {
     margin: 1rem 0 1rem;
