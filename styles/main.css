@@ -40,11 +40,11 @@ body {
     margin-right: 2.5%;
 }
 .header-menu__ul {
-    margin: 0 2rem 0 0;
+    margin: 0 1.5rem 0 0;
     padding: 0;
     display: flex;
     list-style-type: none;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 .header-menu__ul a {
     display: flex;
@@ -128,7 +128,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10vw auto 10vw;
+    margin: 8vw auto 8vw;
 }
 .end-text-section__h1 {
     margin: 0 0 4vw;
