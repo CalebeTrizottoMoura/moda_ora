@@ -1,0 +1,154 @@
+:root {
+    --viaoda_title: "Viaoda Libre", serif;
+    --roboto_text: "Roboto", sans-serif;
+    --standard_letter_spacing: 0.1rem;
+    --standard_width: 85%;
+    --title_size: 3.2rem;
+    --text_size: 1.6rem;
+    --text_height: 3rem;
+    --central_color: #464444;
+    --central_font_size: 1.4rem;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    margin-left: 12%;
+    padding: 1%;
+    font-family: var(--viaoda_title);
+    font-size: min(var(--title_size), 4.5vw);
+    letter-spacing: var(--standard_letter_spacing);
+    color: white;
+}
+.header-menu {
+    margin-right: 2.5%;
+}
+.header-menu__ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.header-menu__ul a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--roboto_text);
+    font-size: min(1.4rem, 2vw);
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.principal-image {
+    width: 100%;
+}
+.principal-image__img {
+    width: 100%;
+    display: block;
+}
+.central-text {
+    margin-top: 6%;
+    width: var(--standard_width);
+}
+.central-text__h1 {
+    width: var(--standard_width);
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--viaoda_title);
+    font-size: min(5.2rem, 4.5vw);
+    letter-spacing: min(0.15rem, 1vw);
+    color: var(--central_color);
+}
+.central-text__p {
+    width: var(--standard_width);
+    margin: 4% auto 6%;
+    color: var(--central_color);
+    font-family: var(--roboto_text);
+    font-size: min(var(--text_size), 2.7vw);
+    letter-spacing: min(0.15rem, 1vw);
+    line-height: min(var(--text_height), 4vw);
+    text-align: center;
+    line-height: var(--text_height);
+}
+.brands {
+    max-width: var(--standard_width);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 0 6%;
+}
+.brands__img {
+    display: block;
+}
+.brands__h1 {
+    margin: 1rem 0 1rem;
+    text-transform: uppercase;
+}
+.brands__p {
+    margin: 0;
+}
+.brands__h1, .brands__p {
+	text-align: center;
+    font-family: var(--roboto_text);
+    font-size: 1.4rem;
+    letter-spacing: 0.05rem;
+	color: var(--central_color);
+}
+.end-text {
+    width: 100%;
+    background: linear-gradient(rgba(0, 61, 82, 0.9), rgba(30, 110, 134, 0.5)), url(../images/bg_detalhe.png);
+    background-size: cover;
+    background-position: right bottom;
+}
+.end-text-section {
+    width: 82vw;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem auto 6rem;
+}
+.end-text-section__h1 {
+    margin: 0 0 4vw 4vw;
+    text-align: left;
+    font-family: var(--viaoda_title);
+    font-size: min(5.2rem, 3vw);
+    letter-spacing: 0.6rem;
+    text-transform: uppercase;
+    color: white;
+}
+.end-text-section__p {
+    display: flex;
+    width: 60%;
+    margin: 0 0 0 4vw;
+    text-align: left;
+    font-family: var(--roboto_text);
+    font-size: min(var(--text_size), 2.5vw);
+    line-height: min(var(--text_height), 3.2vw);
+    letter-spacing: min(0.15rem, 1vw);
+    color: white;
+}
+footer {
+    width: 100%;
+    background-color: #0b171f;
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    color: #6f8597;
+    font-family: var(--roboto_text);
+    font-size: min(var(--text_size), 2.5vw);
+    letter-spacing: 0.15rem;
+}
