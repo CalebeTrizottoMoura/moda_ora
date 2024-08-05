@@ -2,7 +2,7 @@
     --viaoda_title: "Viaoda Libre", serif;
     --roboto_text: "Roboto", sans-serif;
     --standard_letter_spacing: 0.1rem;
-    --standard_width: 70vw;
+    --standard_width: 80vw;
     --logo_size: min(3.2rem, 4.5vw);
     --title_size: min(5.2rem, 4vw);
     --text_size: min(1.8rem, 3vw);
@@ -50,7 +50,7 @@ body {
 .header-menu__ul a {
     display: flex;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     font-family: var(--roboto_text);
     font-size: min(1.4rem, 2vw);
     letter-spacing: 0.05rem;
@@ -84,7 +84,7 @@ body {
 }
 .central-text__p {
     width: var(--standard_width);
-    margin: 2vw auto 4vw;
+    margin: 2vw auto 5vw;
     color: var(--central_color);
     font-family: var(--roboto_text);
     font-size: var(--text_size);
