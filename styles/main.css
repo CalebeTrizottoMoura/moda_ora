@@ -3,10 +3,11 @@
     --roboto_text: "Roboto", sans-serif;
     --standard_letter_spacing: 0.1rem;
     --standard_width: 70vw;
-    --title_size: 3.2rem;
-    --text_size: 1.6rem;
-    --text_height: min(3.5rem, 4.5vw);
-    --title_height: min(5rem, 6vw);
+    --logo_size: min(3.2rem, 4.5vw);
+    --title_size: min(5.2rem, 4vw);
+    --text_size: min(1.8rem, 3vw);
+    --text_height: min(2.5rem, 4.5vw);
+    --title_height: min(6rem, 6vw);
     --central_color: #464444;
     --central_font_size: 1.4rem;
     --anime: cubic-bezier(.57,-0.35,.66,.71);
@@ -32,7 +33,7 @@ body {
     margin-left: 15vw;
     padding: 0.8rem;
     font-family: var(--viaoda_title);
-    font-size: min(var(--title_size), 4.5vw);
+    font-size: var(--logo_size);
     letter-spacing: var(--standard_letter_spacing);
     color: white;
 }
@@ -68,25 +69,25 @@ body {
     display: block;
 }
 .central-text {
-    margin-top: 6%;
     width: var(--standard_width);
 }
 .central-text__h1 {
     width: var(--standard_width);
-    margin: 0 auto;
+    margin: 6vw auto 0;
     text-align: center;
     font-family: var(--viaoda_title);
-    font-size: min(5.2rem, 4.5vw);
+    font-size: var(--title_size);
     letter-spacing: min(0.15rem, 1vw);
     line-height: var(--title_height);
     color: var(--central_color);
+    text-transform: uppercase;
 }
 .central-text__p {
     width: var(--standard_width);
-    margin: 4% auto 6%;
+    margin: 2vw auto 4vw;
     color: var(--central_color);
     font-family: var(--roboto_text);
-    font-size: min(var(--text_size), 2.5vw);
+    font-size: var(--text_size);
     letter-spacing: min(0.15rem, 1vw);
     line-height: var(--text_height);
     text-align: center;
@@ -97,7 +98,7 @@ body {
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    margin: 0 0 6%;
+    margin: 0 0 6vw;
 }
 .brands__img {
     display: block;
@@ -131,10 +132,10 @@ body {
     margin: 8vw auto 8vw;
 }
 .end-text-section__h1 {
-    margin: 0 0 4vw;
+    margin: 0 0 3vw;
     text-align: left;
     font-family: var(--viaoda_title);
-    font-size: min(5.2rem, 3vw);
+    font-size: var(--title_size);
     letter-spacing: 0.6rem;
     line-height: var(--title_height);
     text-transform: uppercase;
@@ -146,7 +147,7 @@ body {
     margin: 0;
     text-align: left;
     font-family: var(--roboto_text);
-    font-size: min(var(--text_size), 2.5vw);
+    font-size: var(--text_size);
     line-height: var(--text_height);
     letter-spacing: min(0.15rem, 1vw);
     color: white;
@@ -160,6 +161,6 @@ footer {
 footer p {
     color: #6f8597;
     font-family: var(--roboto_text);
-    font-size: min(var(--text_size), 2.5vw);
+    font-size: var(--text_size);
     letter-spacing: 0.15rem;
 }
