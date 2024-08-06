@@ -3,11 +3,11 @@
     --roboto_text: "Roboto", sans-serif;
     --standard_letter_spacing: 0.1rem;
     --standard_width: 80vw;
-    --logo_size: min(3.2rem, 4.5vw);
+    --logo_size: min(4.5vw, 3.2rem);
     --title_size: min(max(4vw, 2.5rem), 4rem);
     --text_size: min(max(1vw, 2rem), 2rem);
-    --text_height: min(2.5rem, 4.5vw);
-    --title_height: min(6rem, 6vw);
+    --text_height: min(max(4.5vw, 2.2rem), 2.7rem);
+    --title_height: min(max(6vw, 3.2rem), 5rem);
     --central_color: #464444;
     --central_font_size: 1.4rem;
     --anime: cubic-bezier(.57,-0.35,.66,.71);
@@ -52,14 +52,14 @@ body {
     text-decoration: none;
     color: white;
     font-family: var(--roboto_text);
-    font-size: min(max(1.5vw, 1.15rem), 3rem);
+    font-size: min(max(2vw, 0.73rem), 1.8rem);
     letter-spacing: 0.05rem;
     text-transform: uppercase;
     transition: transform 0.5s var(--anime), color 1s var(--anime);
 }
 .header-menu__ul a:hover {
     color: #6dc6fa;
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 .principal-image {
     width: 100%;
