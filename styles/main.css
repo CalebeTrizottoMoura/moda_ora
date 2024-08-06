@@ -8,7 +8,7 @@
     --text_size: min(max(1vw, 1.8rem), 2rem);
     --text_height: min(max(4.5vw, 2.2rem), 2.7rem);
     --title_height: min(max(6vw, 3.2rem), 5rem);
-    --top_button_text: min(10vw, 5rem);
+    --top_bottom_text: min(10vw, 5rem);
     --between_text: min(10vw, 2rem);
     --central_color: #464444;
     --central_font_size: 1.4rem;
@@ -75,7 +75,7 @@ body {
 }
 .central-text__h1 {
     width: var(--standard_width);
-    margin: var(--top_button_text) auto 0;
+    margin: var(--top_bottom_text) auto 0;
     text-align: center;
     font-family: var(--viaoda_title);
     font-size: var(--title_size);
@@ -100,7 +100,7 @@ body {
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    margin: 0 0 var(--top_button_text);
+    margin: 0 0 var(--top_bottom_text);
 }
 .brands__img {
     display: block;
@@ -131,7 +131,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: var(--top_button_text) auto var(--top_button_text);
+    margin: var(--top_bottom_text) auto var(--top_bottom_text);
 }
 .end-text-section__h1 {
     margin: 0 0 var(--between_text);
