@@ -4,8 +4,8 @@
     --standard_letter_spacing: 0.1rem;
     --standard_width: 80vw;
     --logo_size: min(3.2rem, 4.5vw);
-    --title_size: min(5.2rem, 4vw);
-    --text_size: min(1.8rem, 3vw);
+    --title_size: min(max(4vw, 2.5rem), 4rem);
+    --text_size: min(max(1vw, 2rem), 2rem);
     --text_height: min(2.5rem, 4.5vw);
     --title_height: min(6rem, 6vw);
     --central_color: #464444;
@@ -52,7 +52,7 @@ body {
     text-decoration: none;
     color: white;
     font-family: var(--roboto_text);
-    font-size: min(1.4rem, 2vw);
+    font-size: min(max(1.5vw, 1.15rem), 3rem);
     letter-spacing: 0.05rem;
     text-transform: uppercase;
     transition: transform 0.5s var(--anime), color 1s var(--anime);
@@ -114,7 +114,7 @@ body {
 .brands__h1, .brands__p {
 	text-align: center;
     font-family: var(--roboto_text);
-    font-size: 1.4rem;
+    font-size: var(--text_size);
     letter-spacing: 0.05rem;
 	color: var(--central_color);
 }
